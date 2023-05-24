@@ -1,0 +1,29 @@
+digraph uw_madison_campus {
+  Memorial_Union -> Bascom_Hall [label="1"];
+  Memorial_Union -> Helen_C_White_Hall [label="2"];
+  Memorial_Union -> Grainger_Hall [label="4"];
+  Memorial_Union -> Science_Hall [label="5"];
+  Memorial_Union -> Memorial_Library [label="6"];
+  Bascom_Hall -> Memorial_Union [label="1"];
+  Bascom_Hall -> Engineering_Hall [label="2"];
+  Bascom_Hall -> Union_South [label="2"];
+  Bascom_Hall -> Sterling_Hall [label="11"];
+  Grainger_Hall -> Memorial_Union [label="4"];
+  Grainger_Hall -> Vilas_Hall [label="6"];
+  Grainger_Hall -> Helen_C_White_Hall [label="7"];
+  Sterling_Hall -> Humanities_Building [label="10"];
+  Sterling_Hall -> Bascom_Hall [label="11"];
+  Sterling_Hall -> Engineering_Hall [label="11"];
+  Engineering_Hall -> Bascom_Hall [label="2"];
+  Engineering_Hall -> Sterling_Hall [label="11"];
+  Science_Hall -> Memorial_Union [label="5"];
+  Science_Hall -> Humanities_Building [label="9"];
+  Helen_C_White_Hall -> Memorial_Union [label="2"];
+  Helen_C_White_Hall -> Grainger_Hall [label="7"];
+  Humanities_Building -> Science_Hall [label="9"];
+  Humanities_Building -> Sterling_Hall [label="10"];
+  Union_South -> Bascom_Hall [label="2"];
+  Vilas_Hall -> Grainger_Hall [label="6"];
+  Memorial_Library -> Memorial_Union [label="6"];
+  
+}
