@@ -9,7 +9,8 @@
 
 
 ### Description
-An interactive user - command line map that loads a graph of some of UW-Madison's buildings from a .gv file (building distances/weights and locations are not based on reality). 
+An interactive user - command line map that loads a graph of some of UW-Madison's buildings from a .gv file (building distances/weights and locations are not based on reality) and uses kruskal's algorithm to find
+                    shortest path's between buildings.. 
 
 #### Demo run:
 ![image of a demo run of the uw madison interactive map](https://github.com/fati-m/UW-MadisonInteractiveMap/blob/70416404ed934d9a3a98f493694cc080840cbc7e/demo-run-p3.png)
